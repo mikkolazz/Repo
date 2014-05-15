@@ -4,3 +4,9 @@ def dodawanie():
     print(a+b)
 
 dodawanie()
+
+def get_info():
+    print("to jest prosty instruktaż")
+ 
+get_info()
+dodawanie()
