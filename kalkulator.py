@@ -1,12 +1,13 @@
-def dodawanie():
-    a=int(input('pierwsza liczba'))
-    b=int(input('druga liczba'))
-    print(a+b)
-
-dodawanie()
-
+def dodawanie(a,b):
+    return a+b
 def get_info():
     print("to jest prosty instruktaż")
  
 get_info()
-dodawanie()
+
+
+l1=int(input("wprowadz pierwsza liczbe"))
+l2=int(input("wprowadz durga liczbe"))
+
+print(dodawanie(l1,l2))
+
